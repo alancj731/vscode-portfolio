@@ -14,7 +14,7 @@ const AboutPage = () => {
             <p className={styles.paragraph}>
               Hey! I&apos;m a software engineer based in Winnipeg, Canada. I
               primarily work with JavaScript / TypeScript and Python for both
-              frontend and backend development. I'm particularly interested in
+              frontend and backend development. I&apos;m particularly interested in
               integrating applications with AI and DATA analysis tools,
               exploring ways to get meaningful insights to improve business
               decisions.
