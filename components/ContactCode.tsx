@@ -31,17 +31,18 @@ const ContactCode = () => {
       </p>
       {contactItems.map((item, index) => (
         <div key={index}>
-          <p className={styles.line} >
-            &nbsp;&nbsp;&nbsp;{item.social} :
+          <p className={styles.label}>
+            {item.social}
+            {"\u00A0".repeat(8 - item.social.length)}:
+            <a
+              className={styles.link}
+              href={item.href}
+              target="_blank"
+              rel="noopener"
+            >
+              {item.link}
+            </a>
           </p>
-          <a
-            className="text-green-600"
-            href={item.href}
-            target="_blank"
-            rel="noopener"
-          >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{item.link}
-          </a>
         </div>
       ))}
       <p className={styles.line}>&#125;</p>
