@@ -1,25 +1,25 @@
-import styles from '@/styles/ContactCode.module.css';
+import styles from "@/styles/ContactCode.module.css";
 
 const contactItems = [
   {
-    social: 'website',
-    link: 'portfolio.winnipegdatafan.com',
-    href: 'https://portfolio.winnipegdatafan.com/',
+    social: "website",
+    link: "vscode.winnipegdatafan.com",
+    href: "https://vscode.winnipegdatafan.com/",
   },
   {
-    social: 'email',
-    link: 'winnipegdatafan@gmail.com',
-    href: 'mailto:winnipegdatafan@gmail.com',
+    social: "email",
+    link: "alanchenjian@gmail.com",
+    href: "mailto:alanchenjian@gmail.com",
   },
   {
-    social: 'github',
-    link: 'alancj731',
-    href: 'https://github.com/alancj731',
+    social: "github",
+    link: "alancj731",
+    href: "https://github.com/alancj731",
   },
   {
-    social: 'linkedin',
-    link: 'alanchenjian',
-    href: 'https://www.linkedin.com/in/alanchenjian/',
+    social: "linkedin",
+    link: "alanchenjian",
+    href: "https://www.linkedin.com/in/alanchenjian/",
   },
 ];
 
@@ -30,13 +30,19 @@ const ContactCode = () => {
         <span className="text-green-600">.socials</span> &#123;
       </p>
       {contactItems.map((item, index) => (
-        <p className={styles.line} key={index}>
-          &nbsp;&nbsp;&nbsp;{item.social}{'\u00A0'.repeat(8 - item.social.length)}:{' '}
-          <a className={styles.accentText} href={item.href} target="_blank" rel="noopener">
-            {item.link}
+        <div>
+          <p className={styles.line} key={index}>
+            &nbsp;&nbsp;&nbsp;{item.social} :
+          </p>
+          <a
+            className={styles.accentText}
+            href={item.href}
+            target="_blank"
+            rel="noopener"
+          >
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{item.link}&nbsp;<span className='text-white'>;</span>
           </a>
-          ;
-        </p>
+        </div>
       ))}
       <p className={styles.line}>&#125;</p>
     </div>
