@@ -5,7 +5,7 @@ import styles from '@/styles/ContactPage.module.css';
 const ContactPage = () => {
   return (
     <div className={styles.layout}>
-      <h1 className={`${styles.pageTitle} text-green-600!`}>Contact Me</h1>
+      <h1 className={`${styles.pageTitle} ${styles.green}`}>Contact Me</h1>
       <p className={styles.pageSubtitle}>
         Feel free to reach out me through any of the social platforms below.
         I&apos;m always open to new opportunities and connections.

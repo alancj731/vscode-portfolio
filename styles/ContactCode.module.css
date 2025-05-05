@@ -68,6 +68,14 @@
   opacity: 0.8;
 }
 
+.blue {
+  color: #2563EB
+}
+
+.green {
+  color: #16A34A
+}
+
 .className {
   color: var(--accent-color);
 }

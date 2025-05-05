@@ -47,6 +47,14 @@
   margin-right: auto;
 }
 
+.blue {
+  color: #2563EB
+}
+
+.green {
+  color: #16A34A
+}
+
 @media screen and (max-width: 1200px) {
   .container {
     display: block;

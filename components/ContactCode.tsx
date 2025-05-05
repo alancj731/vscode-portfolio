@@ -27,7 +27,7 @@ const ContactCode = () => {
   return (
     <div className={styles.code}>
       <p className={styles.line}>
-        <span className="text-green-600">.socials</span> &#123;
+        <span className={styles.green}>.socials</span> &#123;
       </p>
       {contactItems.map((item, index) => (
         <div key={index}>

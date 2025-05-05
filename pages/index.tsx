@@ -97,7 +97,7 @@ export default function HomePage() {
           <div className={styles.developerRole}>Full Stack Web Developer</div>
 
           <p className={styles.bio}>
-          <span>Building solutions that help businesses <span className="text-blue-600">grow</span> and <span className="text-green-600">succeed</span>.</span>
+          <span>Building solutions that help businesses <span className={styles.blue}>grow</span> and <span className={styles.green}>succeed</span>.</span>
           </p>
 
           <div className={styles.actionLinks}>

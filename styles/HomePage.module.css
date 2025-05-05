@@ -502,6 +502,13 @@
   transform: rotate(-10deg);
   animation: rotate 35s linear infinite;
 }
+.blue {
+  color: #2563EB
+}
+
+.green {
+  color: #16A34A
+}
 
 @keyframes pulse {
   0%,
