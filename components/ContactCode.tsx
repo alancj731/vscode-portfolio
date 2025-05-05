@@ -30,8 +30,8 @@ const ContactCode = () => {
         <span className="text-green-600">.socials</span> &#123;
       </p>
       {contactItems.map((item, index) => (
-        <div>
-          <p className={styles.line} key={index}>
+        <div key={index}>
+          <p className={styles.line} >
             &nbsp;&nbsp;&nbsp;{item.social} :
           </p>
           <a
