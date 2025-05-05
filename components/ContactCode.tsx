@@ -35,12 +35,12 @@ const ContactCode = () => {
             &nbsp;&nbsp;&nbsp;{item.social} :
           </p>
           <a
-            className={styles.accentText}
+            className="text-green-600"
             href={item.href}
             target="_blank"
             rel="noopener"
           >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{item.link}&nbsp;<span className='text-white'>;</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{item.link}
           </a>
         </div>
       ))}
