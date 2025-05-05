@@ -3,12 +3,12 @@ import styles from "@/styles/ContactCode.module.css";
 const contactItems = [
   {
     social: "website",
-    link: "vscode.winnipegdatafan.com",
+    link: "portfolio page",
     href: "https://vscode.winnipegdatafan.com/",
   },
   {
     social: "email",
-    link: "alanchenjian@gmail.com",
+    link: "alanchenjian",
     href: "mailto:alanchenjian@gmail.com",
   },
   {
