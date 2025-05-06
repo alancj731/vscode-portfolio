@@ -5,7 +5,7 @@ const AboutPage = () => {
     <div className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>Jian Chen</h1>
-        <div className="text-green-600">
+        <div className={styles.green}>
           <div className={styles.subtitle}>Software Engineer</div>
         </div>
 
@@ -30,7 +30,7 @@ const AboutPage = () => {
                 target="_blank"
                 rel="noopener"
               >
-                <span className="text-green-600 font-bold underline">OutreachGenius</span>
+                <span className={`${styles.blue} font-bold underline`}>OutreachGenius</span>
               </a>
               {" "} as a Software Engineer, working with a lean team of 4 engineers to build a cutting-edge voice AI agent platform designed to empower small and medium business owners.
             </p>
@@ -41,7 +41,7 @@ const AboutPage = () => {
                 target="_blank"
                 rel="noopener"
               >
-                <span className="text-green-600 font-bold underline">Origatou</span>
+                <span className={`${styles.blue} font-bold underline`}>Origatou</span>
               </a>, where I upgraded the backend system to support flexible and complex queries, and built a low-code platform to streamline the creation of marketing campaign pages.
             </p>
           </section>

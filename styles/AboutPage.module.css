@@ -60,6 +60,13 @@
   color: var(--accent-color);
   font-weight: 500;
 }
+.green {
+  color: #16A34A
+}
+
+.blue {
+  color: #2563EB
+}
 
 @media screen and (max-width: 600px) {
   .container {
