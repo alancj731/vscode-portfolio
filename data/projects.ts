@@ -24,12 +24,12 @@ export const projects: Project[] = [
     slug: 'chatbot',
   },
   {
-    title: '311 Wait Time',
+    title: 'Reinforcment Learning',
     description:
-      'Shows recent 311 call wait times in Winnipeg.',
-    logo: '/logos/311.svg',
-    link: 'https://311.winnipegdatafan.com/',
-    slug: '311',
+      'A tic-tac-toe game powered by reinforcement learning.',
+    logo: '/logos/ttt.svg',
+    link: 'https://rltictactoe.vercel.app/',
+    slug: 'tictactoe',
   },
   {
     title: 'Javascript Tetris',
