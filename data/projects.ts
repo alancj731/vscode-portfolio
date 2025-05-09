@@ -16,6 +16,14 @@ export const projects: Project[] = [
     slug: 'portfolio',
   },
   {
+    title: 'My Blog',
+    description:
+      'A blog powered by Gatsby and Markdown.',
+    logo: '/logos/blog.svg',
+    link: 'https:/alancj731.github.io/myblog/',
+    slug: 'blog',
+  },
+  {
     title: 'A Chatbot',
     description:
       'A chatbot powered by RAG (Retrieval-Augmented Generation).',
