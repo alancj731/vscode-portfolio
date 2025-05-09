@@ -20,7 +20,7 @@ export const projects: Project[] = [
     description:
       'A blog powered by Gatsby and Markdown.',
     logo: '/logos/blog.svg',
-    link: 'https:/alancj731.github.io/myblog/',
+    link: 'https://alancj731.github.io/myblog/',
     slug: 'blog',
   },
   {
