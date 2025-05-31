@@ -47,4 +47,12 @@ export const projects: Project[] = [
     link: 'https://tetris-js-nine-psi.vercel.app',
     slug: 'tetris',
   },
+  {
+    title: 'LinkedIn Job Auto Search',
+    description:
+      'Search and save new job posts on LinkedIn into database automatically.',
+    logo: '/logos/linkedin.svg',
+    link: 'https://github.com/alancj731/linkedinjobsearch',
+    slug: 'linkedin',
+  }
 ];
