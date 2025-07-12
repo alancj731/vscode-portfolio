@@ -40,19 +40,27 @@ export const projects: Project[] = [
     slug: 'tictactoe',
   },
   {
+    title: 'LinkedIn Job Auto Search',
+    description:
+    'Search and save new job posts on LinkedIn into database automatically.',
+    logo: '/logos/linkedin.svg',
+    link: 'https://github.com/alancj731/linkedinjobsearch',
+    slug: 'linkedin',
+  },
+  {
+    title: 'Password Generator',
+    description:
+    'Generate & Send a secure password to your email.',
+    logo: '/logos/password.svg',
+    link: 'https://passgen.winnipegdatafan.com/',
+    slug: 'password-generator',
+  },
+  {
     title: 'Javascript Tetris',
     description:
       'A lightweight Tetris game developed with pure HTML, CSS, and JavaScript.',
     logo: '/logos/tetris.svg',
     link: 'https://tetris-js-nine-psi.vercel.app',
     slug: 'tetris',
-  },
-  {
-    title: 'LinkedIn Job Auto Search',
-    description:
-      'Search and save new job posts on LinkedIn into database automatically.',
-    logo: '/logos/linkedin.svg',
-    link: 'https://github.com/alancj731/linkedinjobsearch',
-    slug: 'linkedin',
   }
 ];
