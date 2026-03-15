@@ -1,7 +1,6 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  basePath: '/vscode-portfolio',
   images: {
     remotePatterns: [
       { hostname: 'res.cloudinary.com', protocol: 'https' },
