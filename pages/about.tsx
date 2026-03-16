@@ -49,8 +49,7 @@ const AboutPage = () => {
           <section className={styles.section}>
             <h2 className={styles.sectionTitle}>Beyond Code</h2>
             <p className={styles.paragraph}>
-              Aside from programming, I like to invest in the stock market and
-              prepare delicious Chinese food.
+              Aside from programming, I like to research andinvest in the stock market.
             </p>
           </section>
         </div>
