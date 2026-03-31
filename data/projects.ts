@@ -35,7 +35,7 @@ export const projects: Project[] = [
     title: 'Natual Language Query',
     description: 'A demo to use natual language to query database',
     logo: '/logos/database.png',
-    link: 'https://natual-query-frontend.vercel.app/',
+    link: 'https://natural-query-frontend.vercel.app/',
     slug: 'natual-query'
   },
   {
