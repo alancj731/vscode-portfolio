@@ -32,11 +32,11 @@ export const projects: Project[] = [
     slug: 'property-explore',
   },
   {
-    title: 'Natual Language Query',
-    description: 'A demo to use natual language to query database',
+    title: 'Natural Language Query',
+    description: 'A demo to use natural language to query database',
     logo: '/logos/database.png',
     link: 'https://natural-query-frontend.vercel.app/',
-    slug: 'natual-query'
+    slug: 'natural-query'
   },
   {
     title: 'Docker File Parser',
