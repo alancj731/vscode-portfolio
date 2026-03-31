@@ -32,6 +32,20 @@ export const projects: Project[] = [
     slug: 'property-explore',
   },
   {
+    title: 'Natual Language Query',
+    description: 'A demo to use natual language to query database',
+    logo: '/logos/database.png',
+    link: 'https://natual-query-frontend.vercel.app/',
+    slug: 'natual-query'
+  },
+  {
+    title: 'Docker File Parser',
+    description: 'Explain how a dockerfile works',
+    logo: '/logos/docker.png',
+    link: 'https://dockerfile-parser.netlify.app/',
+    slug: 'docker-parser'
+  },
+  {
     title: 'Javascript Tetris',
     description:
       'A lightweight Tetris game developed with pure HTML, CSS, and JavaScript.',
