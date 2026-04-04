@@ -8,14 +8,6 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: 'My Blog',
-    description:
-      'A blog powered by Gatsby and Markdown.',
-    logo: '/logos/blog.svg',
-    link: 'https://alancj731.github.io/myblog/',
-    slug: 'blog',
-  },
-  {
     title: 'Reinforcment Learning',
     description:
       'A tic-tac-toe game powered by reinforcement learning.',
@@ -37,6 +29,14 @@ export const projects: Project[] = [
     logo: '/logos/database.png',
     link: 'https://natural-query-frontend.vercel.app/',
     slug: 'natural-query'
+  },
+  {
+    title: 'CSV Change Easy',
+    description:
+      'A tool to change csv easily by asking',
+    logo: '/logos/csv.svg',
+    link: 'https://csv-change-easy.netlify.app/',
+    slug: 'easy-csv',
   },
   {
     title: 'Docker File Parser',
