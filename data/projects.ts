@@ -34,7 +34,7 @@ export const projects: Project[] = [
     title: 'CSV Change Easy',
     description:
       'A tool to change csv easily by asking',
-    logo: '/logos/csv.svg',
+    logo: '/logos/csv.png',
     link: 'https://csv-change-easy.netlify.app/',
     slug: 'easy-csv',
   },
