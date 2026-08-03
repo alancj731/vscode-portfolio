@@ -12,16 +12,16 @@ export const projects: Project[] = [
     description:
       'A tic-tac-toe game powered by reinforcement learning.',
     logo: '/logos/ttt.svg',
-    link: 'https://rltictactoe.vercel.app/',
+    link: 'http://rl-tik-tok-toe-8uzyu5-dbe537-74-208-199-250.sslip.io/',
     slug: 'tictactoe',
   },
   {
-    title: 'Winnipeg Property Explore',
+    title: 'Expense Tracker',
     description:
-    'Generate & Send a secure password to your email.',
-    logo: '/logos/password.svg',
-    link: 'https://opendata2026.netlify.app',
-    slug: 'property-explore',
+    'Expense tracker using claude',
+    logo: '/logos/receipt.png',
+    link: 'http://74.208.199.250:3456/',
+    slug: 'expense-tracker',
   },
   {
     title: 'Natural Language Query',
