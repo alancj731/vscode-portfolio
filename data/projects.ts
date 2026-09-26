@@ -28,7 +28,7 @@ export const projects: Project[] = [
     description:
       'A personal AI calling assistant',
     logo: '/logos/callperator.svg',
-    link: 'https://callperator.netlify.app//',
+    link: 'https://callperator.netlify.app/',
     slug: 'easy-csv',
   },
 
