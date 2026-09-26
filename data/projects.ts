@@ -16,21 +16,6 @@ export const projects: Project[] = [
     slug: 'tictactoe',
   },
   {
-    title: 'Expense Tracker',
-    description:
-    'Expense tracker using claude',
-    logo: '/logos/receipt.png',
-    link: 'http://74.208.199.250:3456/',
-    slug: 'expense-tracker',
-  },
-  {
-    title: 'Natural Language Query',
-    description: 'A demo to use natural language to query database',
-    logo: '/logos/database.png',
-    link: 'https://natural-query-frontend.vercel.app/',
-    slug: 'natural-query'
-  },
-  {
     title: 'CSV Change Easy',
     description:
       'A tool to change csv easily by asking',
@@ -39,18 +24,12 @@ export const projects: Project[] = [
     slug: 'easy-csv',
   },
   {
-    title: 'Docker File Parser',
-    description: 'Explain how a dockerfile works',
-    logo: '/logos/docker.png',
-    link: 'https://dockerfile-parser.netlify.app/',
-    slug: 'docker-parser'
-  },
-  {
-    title: 'Javascript Tetris',
+    title: 'Callperator',
     description:
-      'A lightweight Tetris game developed with pure HTML, CSS, and JavaScript.',
-    logo: '/logos/tetris.svg',
-    link: 'https://tetris-js-nine-psi.vercel.app',
-    slug: 'tetris',
-  }
+      'A personal AI calling assistant',
+    logo: '/logos/callperator.svg',
+    link: 'https://callperator.netlify.app//',
+    slug: 'easy-csv',
+  },
+
 ];
