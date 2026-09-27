@@ -29,7 +29,14 @@ export const projects: Project[] = [
       'A personal AI calling assistant',
     logo: '/logos/callperator.svg',
     link: 'https://callperator.netlify.app/',
-    slug: 'easy-csv',
+    slug: 'callperator',
   },
-
+  {
+    title: 'Chrome Password Manager',
+    description:
+      'Password Management Extension',
+    logo: '/logos/password.svg',
+    link: 'https://github.com/alancj731/chrome-pw-extension/blob/dev/README.md',
+    slug: 'chrome-pw',
+  }
 ];
