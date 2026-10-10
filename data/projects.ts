@@ -12,7 +12,7 @@ export const projects: Project[] = [
     description:
       'A tic-tac-toe game powered by reinforcement learning.',
     logo: '/logos/ttt.svg',
-    link: 'http://rl-tik-tok-toe-8uzyu5-dbe537-74-208-199-250.sslip.io/',
+    link: 'https://tiktoktoe.winnipegdatafan.com/',
     slug: 'tictactoe',
   },
   {
