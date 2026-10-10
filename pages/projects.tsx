@@ -8,7 +8,7 @@ const ProjectsPage = () => {
     <div className={styles.layout}>
       <h1 className={styles.pageTitle}>Personal Projects</h1>
       <p className={styles.pageSubtitle}>
-      A selection of my recent personal projects, highlighting my expertise in web development, design, and problem-solving.
+      A selection of my recent personal projects.
       </p>
 
       <div className={styles.container}>
