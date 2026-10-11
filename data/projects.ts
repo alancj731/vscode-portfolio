@@ -38,5 +38,13 @@ export const projects: Project[] = [
     logo: '/logos/password.svg',
     link: 'https://github.com/alancj731/chrome-pw-extension/blob/dev/README.md',
     slug: 'chrome-pw',
+  },
+  {
+    title: 'SQL Practice',
+    description:
+      'Practise SQL queries on MySQL, SQL Server and PostgreSQL',
+    logo: '/logos/sql-practice.svg',
+    link: 'https://mysql-sqlserver-postgres.vercel.app/',
+    slug: 'sql-practice',
   }
 ];
