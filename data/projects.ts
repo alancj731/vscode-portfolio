@@ -46,5 +46,13 @@ export const projects: Project[] = [
     logo: '/logos/sql-practice.svg',
     link: 'https://mysql-sqlserver-postgres.vercel.app/',
     slug: 'sql-practice',
+  },
+  {
+    title: 'My Youtube',
+    description:
+      'A tagged YouTube library',
+    logo: '/logos/my-youtube.svg',
+    link: 'https://youtube.winnipegdatafan.com/',
+    slug: 'my-youtube',
   }
 ];
