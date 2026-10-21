@@ -16,14 +16,6 @@ export const projects: Project[] = [
     slug: 'tictactoe',
   },
   {
-    title: 'CSV Change Easy',
-    description:
-      'A tool to change csv easily by asking',
-    logo: '/logos/csv.png',
-    link: 'https://csv-change-easy.netlify.app/',
-    slug: 'easy-csv',
-  },
-  {
     title: 'Callperator',
     description:
       'A personal AI calling assistant',
@@ -32,13 +24,21 @@ export const projects: Project[] = [
     slug: 'callperator',
   },
   {
-    title: 'Chrome Password Manager',
+    title: 'AWS Orders Pipeline',
     description:
-      'Password Management Extension',
-    logo: '/logos/password.svg',
-    link: 'https://github.com/alancj731/chrome-pw-extension/blob/dev/README.md',
-    slug: 'chrome-pw',
+      'Serverless .NET orders on API Gateway, Lambda, SNS and SQS',
+    logo: '/logos/aws-orders.svg',
+    link: 'https://aws-services-demo.netlify.app/',
+    slug: 'aws-orders',
   },
+  // {
+  //   title: 'Chrome Password Manager',
+  //   description:
+  //     'Password Management Extension',
+  //   logo: '/logos/password.svg',
+  //   link: 'https://github.com/alancj731/chrome-pw-extension/blob/dev/README.md',
+  //   slug: 'chrome-pw',
+  // },
   {
     title: 'SQL Practice',
     description:
@@ -56,11 +56,11 @@ export const projects: Project[] = [
     slug: 'my-youtube',
   },
   {
-    title: 'AWS Orders Pipeline',
+    title: 'CSV Change Easy',
     description:
-      'Serverless .NET orders on API Gateway, Lambda, SNS and SQS',
-    logo: '/logos/aws-orders.svg',
-    link: 'https://aws-services-demo.netlify.app/',
-    slug: 'aws-orders',
-  }
+      'A tool to change csv easily by asking',
+    logo: '/logos/csv.png',
+    link: 'https://csv-change-easy.netlify.app/',
+    slug: 'easy-csv',
+  },
 ];
