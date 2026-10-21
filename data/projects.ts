@@ -54,5 +54,13 @@ export const projects: Project[] = [
     logo: '/logos/my-youtube.svg',
     link: 'https://youtube.winnipegdatafan.com/',
     slug: 'my-youtube',
+  },
+  {
+    title: 'AWS Orders Pipeline',
+    description:
+      'Serverless .NET orders on API Gateway, Lambda, SNS and SQS',
+    logo: '/logos/aws-orders.svg',
+    link: 'https://aws-services-demo.netlify.app/',
+    slug: 'aws-orders',
   }
 ];
