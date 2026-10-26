@@ -56,6 +56,14 @@ export const projects: Project[] = [
     slug: 'my-youtube',
   },
   {
+    title: 'Halloween Candy',
+    description:
+      'A Power BI report ranking 85 Halloween candies',
+    logo: '/logos/halloween-candy.svg',
+    link: 'https://github.com/alancj731/powerbi-halloween-candi',
+    slug: 'halloween-candy',
+  },
+  {
     title: 'CSV Change Easy',
     description:
       'A tool to change csv easily by asking',
