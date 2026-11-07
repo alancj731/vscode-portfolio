@@ -6,10 +6,25 @@
 }
 
 .container {
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(max(300px, calc((100% - 1.5rem) / 2)), 1fr)
+  );
   gap: 1.5rem;
+}
+
+.category {
+  margin-bottom: 2.5rem;
+}
+
+.categoryTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .pageTitle {
