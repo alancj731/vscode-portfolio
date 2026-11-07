@@ -1,8 +1,8 @@
 export const categories = [
   'Cloud',
   'Data',
-  'Machine Learning',
   'AI',
+  'Machine Learning',
   'Full Stack',
 ] as const;
 
