@@ -79,20 +79,49 @@ const GithubPage = ({ repos, user }: GithubPageProps) => {
   );
 };
 
-export async function getStaticProps() {
-  const userRes = await fetch(
-    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}`
-  );
-  const user = await userRes.json();
+async function fetchGithub<T>(path: string): Promise<T | null> {
+  const headers: Record<string, string> = {
+    Accept: 'application/vnd.github+json',
+  };
+  if (process.env.GITHUB_TOKEN) {
+    headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+  }
 
-  const repoRes = await fetch(
-    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos?sort=pushed&per_page=6`
-  );
-  const repos = await repoRes.json();
+  try {
+    const res = await fetch(`https://api.github.com${path}`, { headers });
+    const contentType = res.headers.get('content-type') ?? '';
+    if (!res.ok || !contentType.includes('application/json')) {
+      console.warn(`GitHub API ${path} failed: ${res.status} ${contentType}`);
+      return null;
+    }
+    return (await res.json()) as T;
+  } catch (error) {
+    console.warn(`GitHub API ${path} failed:`, error);
+    return null;
+  }
+}
+
+export async function getStaticProps() {
+  const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME ?? '';
+
+  const [user, repos] = await Promise.all([
+    fetchGithub<User>(`/users/${username}`),
+    fetchGithub<Repo[]>(`/users/${username}/repos?sort=pushed&per_page=6`),
+  ]);
 
   return {
-    props: { title: 'GitHub', repos, user },
-    // revalidate: 600,
+    props: {
+      title: 'GitHub',
+      repos: Array.isArray(repos) ? repos : [],
+      user: user ?? {
+        login: username,
+        avatar_url: `https://avatars.githubusercontent.com/${username}`,
+        public_repos: 0,
+        followers: 0,
+      },
+    },
+    // Refetch sooner if the GitHub API was unavailable at build time.
+    revalidate: user && repos ? 600 : 60,
   };
 }
 
