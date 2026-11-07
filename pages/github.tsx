@@ -120,8 +120,6 @@ export async function getStaticProps() {
         followers: 0,
       },
     },
-    // Refetch sooner if the GitHub API was unavailable at build time.
-    revalidate: user && repos ? 600 : 60,
   };
 }
 
