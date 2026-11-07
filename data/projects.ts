@@ -31,6 +31,14 @@ export const projects: Project[] = [
     link: 'https://aws-services-demo.netlify.app/',
     slug: 'aws-orders',
   },
+  {
+    title: 'Keep Supabase Alive',
+    description:
+      'A daily AWS Lambda ping that stops free Supabase projects from pausing',
+    logo: '/logos/supabase-keepalive.svg',
+    link: 'https://github.com/alancj731/keep-supabase-alive-aws',
+    slug: 'supabase-keepalive',
+  },
   // {
   //   title: 'Chrome Password Manager',
   //   description:
